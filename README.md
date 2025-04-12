@@ -848,7 +848,7 @@ app.listen(PORT, () => {
 
 ---
 
-## 3️⃣ Projekt: **Virtuális kert – Növény törlése**  
+## 3️⃣ Projekt: **Inaksszó kezelő rendszer**  
 `debt-app/`
 
 ### 📁 Mappaszerkezet
