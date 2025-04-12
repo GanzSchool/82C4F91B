@@ -873,7 +873,7 @@ debt-app/
 
 > `public/index.html`
 
-```js
+```html
 <!DOCTYPE html>
 <html lang="hu">
 <head>
