@@ -100,6 +100,7 @@
 
 ---
 
+> [!NOTE]
 ## 🎯 **Összpontszám kiszámítási javaslat**
 
 - **Általános formai rész (mappastruktúra és file):** hogy ne legyen egyes
