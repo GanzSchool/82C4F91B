@@ -2,10 +2,10 @@
 
 ## 🔖 Általános értékelési szempontok (beadás formátuma)
 
-| Szempont | Leírás | Pontszám |
-|----------|--------|----------|
-| ✅ Helyes mappanév | A hallgató a nevét kisbetűvel, ékezet nélkül és szóköz nélkül írta, pl.: `kissbela` | 0 vagy
-| ✅ Projektmappák létrehozása | Mindhárom mappa (`customer-app`, `moneytr-app`, `debt-app`) létrehozva, a megfelelő fájlokkal | 0 vagy
+| Szempont | Leírás |
+|----------|--------|
+| ✅ Helyes mappanév | A hallgató a nevét kisbetűvel, ékezet nélkül és szóköz nélkül írta, pl.: `kissbela` | 
+| ✅ Projektmappák létrehozása | Mindhárom mappa (`customer-app`, `moneytr-app`, `debt-app`) létrehozva, a megfelelő fájlokkal |
 
 > **Megjegyzés:** Ha a mappaszerkezet nem megfelelő vagy nem a kért fájlokat tartalmazza, a teljes projekt érvénytelennek minősülhet („nem egyes”).
 
@@ -15,8 +15,8 @@
 
 ### ✅ **Alapvető funkciók működése (`GET` lekérdezés)**
 
-| Szempont | Leírás | Pontszám |
-|----------|--------|----------|
+| Szempont | Leírás |
+|----------|--------|
 | Fetch metódus helyes használata | `fetch()` helyes alkalmazása, GET metódussal |
 | Respons dekódolása | `.json()` helyesen használva |
 | Adatfeldolgozás | `.then()` blokk használata és a tömb elemeinek DOM-ba helyes renderelése. |
@@ -30,8 +30,8 @@
 
 ### ⚙️ **POST kérés konfigurálása**
 
-| Szempont | Leírás | Pontszám |
-|----------|--------|----------|
+| Szempont | Leírás |
+|----------|--------|
 | Fetch helyes használata | megfelelő metódus alkalmazása a végpontra |
 | Respons dekódolása | `.json()` hívás |
 | Adatfeldolgozás | Válasz alapján visszajelzés (`console.log`, `alert`) |
@@ -39,16 +39,16 @@
 
 ### 🧾 **Konfigurációs beállítások**
 
-| Szempont | Leírás | Pontszám |
-|----------|--------|----------|
+| Szempont | Leírás |
+|----------|--------|
 | Metódus konfigurálás | `method` megadása a fetch-ben |
 | Header beállítás | `Content-Type:` helyes megadása |
 | Body helyes beállítása | `JSON.stringify()`  helyes objektum megadással |
 
 ### 💬 **Felhasználói visszajelzések**
 
-| Szempont | Leírás | Pontszám |
-|----------|--------|----------|
+| Szempont | Leírás |
+|----------|--------|
 | `.then` blokk – console.log | A sikeres válasz konzolra kerül |
 | `.then` blokk – alert | Alert jelenik meg a sikeres mentés után |
 | `.catch` blokk – console.log | Hibát konzolra írja |
@@ -56,8 +56,8 @@
 
 ### ✅ **Tesztelés**
 
-| Szempont | Leírás | Pontszám |
-|----------|--------|----------|
+| Szempont | Leírás |
+|----------|--------|
 | Elvárt teszt rögzítve | A rekordok sikeresen bekerültek a JSON fájlba |
 | Node környezet | Express, JSON fájl írása működik |
 
@@ -67,24 +67,24 @@
 
 ### 🔄 **DELETE kérés működése**
 
-| Szempont | Leírás | Pontszám |
-|----------|--------|----------|
+| Szempont | Leírás |
+|----------|--------|
 | Fetch használat | Helyes metódus alkalmazása a végpontra |
 | Respons dekódolás | A szerver válaszát `.json()`-nal értelmezi |
 | Adatfeldolgozás | Válasz alapján visszajelzés (`console.log`, `alert`) |
 
 ### 🧾 **Konfigurációs beállítások**
 
-| Szempont | Leírás | Pontszám |
-|----------|--------|----------|
+| Szempont | Leírás |
+|----------|--------|
 | Metódus konfigurálása | `method:` megadva |
 | Header | `Content-Type:` helyes |
 | Body | `JSON.stringify()` helyes objektum megadás |
 
 ### 💬 **Felhasználói visszajelzések**
 
-| Szempont | Leírás | Pontszám |
-|----------|--------|----------|
+| Szempont | Leírás |
+|----------|--------|
 | `.then` blokk – console.log | A szerver visszajelzését naplózza |
 | `.then` blokk – alert | Alert formájában is jelez |
 | `.catch` blokk – console.log | Hibát naplózza |
@@ -92,8 +92,8 @@
 
 ### ✅ **Tesztelés**
 
-| Szempont | Leírás | Pontszám |
-|----------|--------|----------|
+| Szempont | Leírás |
+|----------|--------|
 | Elvárt rekord törölve | A rekordok törlése sikeres |
 | Node környezet | Szerver működik, fájlfrissítés megvalósul |
 
