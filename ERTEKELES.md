@@ -101,7 +101,7 @@
 ---
 
 
-## 🎯 **Összpontszám kiszámítási javaslat**
+## 🎯 **Összpontszám kiszámítás**
 
 > [!NOTE]
 > - **Általános formai rész (mappastruktúra és fileok a helyükön):** hogy ne legyen egyes
