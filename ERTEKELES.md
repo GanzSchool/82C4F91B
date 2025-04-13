@@ -7,6 +7,7 @@
 | ✅ Helyes mappanév | A hallgató a nevét kisbetűvel, ékezet nélkül és szóköz nélkül írta, pl.: `kissbela` | 
 | ✅ Projektmappák létrehozása | Mindhárom mappa (`customer-app`, `moneytr-app`, `debt-app`) létrehozva, a megfelelő fájlokkal |
 
+> [!CAUTION]
 > **Megjegyzés:** Ha a mappaszerkezet nem megfelelő vagy nem a kért fájlokat tartalmazza, a teljes projekt érvénytelennek minősülhet („nem egyes”).
 
 ---
