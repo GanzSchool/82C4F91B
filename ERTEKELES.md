@@ -100,11 +100,12 @@
 
 ---
 
-> [!NOTE]
+
 ## 🎯 **Összpontszám kiszámítási javaslat**
 
-- **Általános formai rész (mappastruktúra és file):** hogy ne legyen egyes
-- **1. projekt (GET művelet):** max. 6 pont
-- **2. projekt (POST művelet):** max. 17 pont
-- **3. projekt (DELETE művelet):** max. 17 pont
-- **Teljes értékelés:** **max. 40 pont**
+> [!NOTE]
+> - **Általános formai rész (mappastruktúra és file):** hogy ne legyen egyes
+> - **1. projekt (GET művelet):** max. 6 pont
+> - **2. projekt (POST művelet):** max. 17 pont
+> - **3. projekt (DELETE művelet):** max. 17 pont
+> - **Teljes értékelés:** **max. 40 pont**
