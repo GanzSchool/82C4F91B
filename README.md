@@ -293,9 +293,16 @@ footer {
 
 ```js
 document.getElementById("loadButton").addEventListener("click", (event) => {
-    fetch('/api/customers')
-      .then(response => response.json())
-      .then(data => {
+
+        // küld el a szervernek a kérést
+
+        // kapd el a szerver válaszát
+
+        // dolgozd fel a szerver válaszát
+
+          // DOM - manipulációs logika
+          
+/*
         const container = document.getElementById("customerData");
         container.innerHTML = ""; // Korábbi tartalom törlése
   
@@ -315,10 +322,9 @@ document.getElementById("loadButton").addEventListener("click", (event) => {
           card.append(name, account, balance);
           container.appendChild(card);
         });
-      })
-      .catch(error => {
-        console.error("Hiba történt:", error);
-      });
+*/
+      // hiba esetén: "Hiba történt:"
+
   });
 ```
 
@@ -752,38 +758,29 @@ moneytr-app/
 > `public/script.js`
 
 ```js
-document.getElementById("sendButton").addEventListener("click", (event) => {
-    event.preventDefault(); // Megakadályozza az oldal újratöltését
+document.getElementById("sendButton").addEventListener("click", () => {
   
     // 1) Kinyerjük az input mezők értékeit
     const nameValue = document.getElementById("name").value;
     const accountValue = document.getElementById("accountNumber").value;
     const amountValue = document.getElementById("amount").value;
   
-    // 2) Összeállítjuk az elküldendő tranzakció adatokat tartalmazó objektumot
     const transactionData = {
       name: nameValue,
       accountNumber: accountValue,
       amount: amountValue
     };
   
-    // 3) POST kérés a szerver felé a tranzakció rögzítéséhez
-    fetch("/api/bank", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(transactionData)
-    })
-      .then(response => response.json())
-      .then(result => {
-        console.log("Szerver válasza:", result);
-        alert("A tranzakció sikeresen rögzítve!");
-      })
-      .catch(error => {
-        console.error("Hiba történt:", error);
-        alert("Hiba az adatok küldése során!");
-      });
+      // küld el a szervernek a kérést és a bekért adatokat
+  
+      // kapd el a szerver válaszát
+    
+      // console logban jelenjen meg a szerver válasza: "Szerver válasza:" ...
+      // alert formájában jelenjen ez meg: "Sikeres utalás!"
+
+  
+      // hiba esetén: "Hiba történt:" ...
+      // Hiba esetén jelenjen meg ez az alert: "Hiba történt a küldés során!"
   });
   
 ```
@@ -1272,28 +1269,23 @@ debt-app/
 
 ```js
 document.getElementById("deleteButton").addEventListener("click", () => {
-    // 1) Lekérjük az input mezők értékeit
+
     const accountNumber = document.getElementById("accountNumber").value;
     const inkassoId = document.getElementById("inkassoId").value;
   
-    // 2) Összeállítjuk a törlendő adatok objektumát
+
     const deleteData = { accountNumber, inkassoId };
   
-    // 3) DELETE kérés küldése a szerver felé a "/api/inkasso" végponton
-    fetch("/api/inkasso", {
-      method: "DELETE",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(deleteData)
-    })
-      .then(response => response.json())
-      .then(result => {
-        console.log("Szerver válasza:", result);
-        alert("Az inkasszó rekord sikeresen törölve.");
-      })
-      .catch(error => {
-        console.error("Hiba történt:", error);
-        alert("Hiba az adatok küldése során!");
-      });
+      // küld el a szervernek a kérést és a bekért adatokat
+  
+      // kapd el a szerver válaszát
+    
+      // console logban jelenjen meg a szerver válasza: "Szerver válasza:" ...
+      // alert formájában jelenjen ez meg: "Az inkasszó sikeresen eltávolítva."
+
+  
+      // hiba esetén: "Hiba történt:" ...
+      // Hiba esetén jelenjen meg ez az alert: "Hiba történt a küldés során!"
   });
   
 ```
