@@ -13,7 +13,7 @@ Ezen belül 3 projekt gyökérmappát:
 kissbela/
 ├── customer-app/         # Banki ügyfél lekérdező rendszer
 ├── moneytr-app/          # Pénz küldő rendszer
-├── debt-app/             # Inaksszó kezelő rendszer
+├── debt-app/             # Inkasszó kezelő rendszer
 ```
 
 ## Feladat
@@ -845,7 +845,7 @@ app.listen(PORT, () => {
 
 ---
 
-## 3️⃣ Projekt: **Virtuális kert – Növény törlése**  
+## 3️⃣ Projekt: **Inkasszó kezelő rendszer**  
 `debt-app/`
 
 ### 📁 Mappaszerkezet
