@@ -22,7 +22,7 @@
 | Respons dekódolása | `.json()` helyesen használva |
 | Adatfeldolgozás | `.then()` blokk használata és a tömb elemeinek DOM-ba helyes renderelése. |
 | Hibakezelés | `.catch()` blokk használata |
-| Hibára való reagálás | Hiba esetén értelmezhető hibaüzenet megjelenítése |
+| Hibára való reagálás | Hiba esetén megadott hibaüzenet megjelenítése | 
 | Node környezet használata | A szerver működik, `npm init`, `express` telepítve és `node server.js`-szel indítható |
 
 ---
@@ -50,10 +50,10 @@
 
 | Szempont | Leírás |
 |----------|--------|
-| `.then` blokk – console.log | A sikeres válasz konzolra kerül |
-| `.then` blokk – alert | Alert jelenik meg a sikeres mentés után |
-| `.catch` blokk – console.log | Hibát konzolra írja |
-| `.catch` blokk – alert | Hibát alertként is jelzi |
+| `.then` blokk – console.log | A sikeres válasz konzolra kerül, megadott üzenet megjelenítése|
+| `.then` blokk – alert | Alert jelenik meg a sikeres mentés után, megadott üzenet megjelenítése |
+| `.catch` blokk – console.log | Hibát konzolra írja, megadott üzenet megjelenítése |
+| `.catch` blokk – alert | Hibát alertként is jelzi, megadott üzenet megjelenítése |
 
 ### ✅ **Tesztelés**
 
@@ -86,10 +86,10 @@
 
 | Szempont | Leírás |
 |----------|--------|
-| `.then` blokk – console.log | A szerver visszajelzését naplózza |
-| `.then` blokk – alert | Alert formájában is jelez |
-| `.catch` blokk – console.log | Hibát naplózza |
-| `.catch` blokk – alert | Hibát alert formában is közli |
+| `.then` blokk – console.log | A szerver visszajelzését naplózza, megadott üzenet megjelenítése |
+| `.then` blokk – alert | Alert formájában is jelez, megadott üzenet megjelenítése |
+| `.catch` blokk – console.log | Hibát naplózza, megadott üzenet megjelenítése |
+| `.catch` blokk – alert | Hibát alert formában is közli, megadott üzenet megjelenítése |
 
 ### ✅ **Tesztelés**
 
