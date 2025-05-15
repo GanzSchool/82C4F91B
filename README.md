@@ -1432,7 +1432,7 @@ npm install express
 node server.js
 ```
 
-## Segédanyag
+## ❤️Segédanyag❤️
 
 ```js
 fetch('URL', {
